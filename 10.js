@@ -1,9 +1,8 @@
 let rezultatas = document.createElement('p');
 
-const newLocal = "form";
-let form = document.forms[newLocal];
-form.addEventListener("submit", function (e) {
-    e.preventDefault();
+
+btn.addEventListener("submit", function (e) {
+    
     let Number = +form["Number"].value;
     let Number1 = +form["Number1"].value;
     let suma = Number + Number1;
